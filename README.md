@@ -19,7 +19,7 @@ This JavaScript/TypeScript library provides automatic access to the standardized
 
 ## Installation
 
-![How to install TechSpecs]()
+![How to install TechSpecs](https://i.imgur.com/tutKl0r.png)
 
 ```sh
 npm install techspecs
