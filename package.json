@@ -1,5 +1,5 @@
 {
-  "name": "TechSpecs",
+  "name": "techspecs",
   "version": "1.0.0",
   "description": "Progamtically get the standardized specs of over 61,000 consumer electronics devices, including the latest smartphones, tablets, smartwatches, laptops, and more.",
   "main": "dist/index.js",
