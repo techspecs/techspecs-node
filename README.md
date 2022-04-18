@@ -3,7 +3,7 @@
 
 # Introducing TechSpecs JavaScript/TypeScript
 
-This JavaScript/TypeScript library provides automatic access to the standardized technical specifications of the world's consumer electronics, including the latest smartphones, tablets, smartwatches, laptops, and more.
+This node library provides programatic access to the standardized specs of over 61,000 consumer electronics devices, including the latest smartphones, tablets, smartwatches, laptops, and more.
 
 ## Documentation
 
@@ -15,7 +15,7 @@ This JavaScript/TypeScript library provides automatic access to the standardized
 
 ## Requirements
 
-- NodeJS (v12.x) or ES6
+- NodeJS v12.x or ES6
 
 ## Installation
 
