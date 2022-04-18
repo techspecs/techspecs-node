@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "strict": true,
+    "outDir": "dist",
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "declaration": true
+  },
+  "include": ["src/*"],
+  "exclude": ["node_modules", "dist", "lib"]
+}

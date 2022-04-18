@@ -1,0 +1,38 @@
+{
+  "name": "TechSpecs",
+  "version": "1.0.0",
+  "description": "Progamtically get the standardized specs of over 61,000 consumer electronics devices, including the latest smartphones, tablets, smartwatches, laptops, and more.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "techspecs, laptop specs, laptop database, smartphones specs, smartphone database, tablet specs, tablet database, smartwatch specs, smartwatch database"
+  ],
+  "homepage": "https://github.com/techspecs/techspecs-node",
+  "bugs": {
+    "url": "https://github.com/techspecs/techspecs-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/techspecs/techspecs-node"
+  },
+  "author": {
+    "name": "TechSpecs"
+  },
+  "scripts": {
+    "test": "npm run build && jest",
+    "serve": "npm-run-all --parallel build-watch dev",
+    "build-watch": "tsc -w",
+    "dev": "nodemon --watch lib --exec \"node lib/index.js\"",
+    "build": "tsc -p tsconfig-build.json",
+    "prepublish": "npm run build"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "npm-run-all": "^4.1.5"
+  }
+}
